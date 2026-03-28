@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useShaderBackground } from "../components/ui/animated-shader-hero";
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useShaderBackground } from '../components/ui/animated-shader-hero';
 
 const BackgroundEffect = () => {
   const canvasRef = useShaderBackground();
@@ -41,11 +41,11 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
     exit: {
       opacity: 0,
       scale: 1.1,
-      filter: "blur(10px)",
+      filter: 'blur(10px)',
       transition: {
         duration: 0.8,
-        ease: "easeInOut",
-        when: "beforeChildren",
+        ease: 'easeInOut',
+        when: 'beforeChildren',
         staggerChildren: 0.1,
       },
     },
@@ -57,7 +57,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
       opacity: 0,
       transition: {
         duration: 0.4,
-        ease: "easeInOut",
+        ease: 'easeInOut',
       },
     },
   };
@@ -82,40 +82,21 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                 variants={childVariants}
               >
                 <h1 
-                  className="text-4xl sm:text-5xl md:text-7xl font-normal space-y-2 sm:space-y-4"
-                  style={{ fontFamily: '"Birds of Paradise", "Birds of Paradise ? Personal Use", cursive' }}
+className="text-4xl sm:text-5xl md:text-7xl font-normal space-y-2 sm:space-y-4 uppercase tracking-[0.8em] [text-shadow:0_0_20px_rgba(234,234,234,0.3)]"
+                  style={{ 
+                    fontFamily: "'Montserrat', sans-serif", 
+                    fontWeight: 200, 
+                    color: '#EAEAEA' 
+                  }}
                 >
                   <div className="mb-2 sm:mb-4">
                     <span
                       data-aos="fade-right"
                       data-aos-delay="200"
-                      className="inline-block px-2 text-[#F5D7A1] [text-shadow:0_0_20px_rgba(255,180,80,0.4)]"
+                      className="inline-block"
                     >
-                      Welcome
-                    </span>{" "}
-                    <span
-                      data-aos="fade-right"
-                      data-aos-delay="400"
-                      className="inline-block px-2 text-[#F5D7A1] [text-shadow:0_0_20px_rgba(255,180,80,0.4)]"
-                    >
-                      To
-                    </span>{" "}
-                    <span
-                      data-aos="fade-right"
-                      data-aos-delay="600"
-                      className="inline-block px-2 text-[#F5D7A1] [text-shadow:0_0_20px_rgba(255,180,80,0.4)]"
-                    >
-                      My
-                    </span>
-                  </div>
-                  <div>
-                    <span
-                      data-aos="fade-up"
-                      data-aos-delay="800"
-                      className="inline-block px-2 bg-[linear-gradient(to_right,#FFD580,#FFB347,#FF8C42)] bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(255,180,80,0.4)]"
-                    >
-                      Portfolio
-                    </span>{" "}
+                      WELCOME
+                    </span>{' '}
                   </div>
                 </h1>
               </motion.div>
