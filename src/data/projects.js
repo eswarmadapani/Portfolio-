@@ -12,8 +12,8 @@ export const projects = [
       "Detailed performance analytics"
     ],
     tech: ["React", "FastAPI", "Groq LLM", "TailwindCSS"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/eswarmadapani/AI-Mock-Interview",
+    demo: "https://ai-mock-interview-kappa-flax.vercel.app/dashboard"
   },
   {
     id: 2,
@@ -28,8 +28,8 @@ export const projects = [
       "Modular backend architecture"
     ],
     tech: ["FastAPI", "Groq LLM", "Prompt Engineering", "Python"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/eswarmadapani/RewriteAI",
+    demo: "https://rewrite-ai-4hj932uki-easravan4-gmailcoms-projects.vercel.app/"
   },
   {
     id: 3,
@@ -44,8 +44,8 @@ export const projects = [
       "Support for PDF and DOCX formats"
     ],
     tech: ["FastAPI", "Groq LLM", "Python", "PDF/DOCX Processing"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/eswarmadapani/Resume-Bullet-Generator",
+    demo: "https://resume-bullet-generator-pi.vercel.app/"
   },
   {
     id: 4,
@@ -60,8 +60,8 @@ export const projects = [
       "Clean and professional UI"
     ],
     tech: ["React", "FastAPI", "TailwindCSS", "Markdown Parser"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/eswarmadapani/FormatAI",
+    demo: "https://formatai-jade.vercel.app/login"
   },
   {
     id: 5,
@@ -76,7 +76,7 @@ export const projects = [
       "Dynamic data fetching from movie APIs"
     ],
     tech: ["React", "API Integration", "TailwindCSS", "State Management"],
-    github: "#",
+    github: "https://github.com/eswarmadapani/SteveFlix",
     demo: "#"
   }
 ];

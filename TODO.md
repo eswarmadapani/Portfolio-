@@ -1,1 +1,4 @@
-# Task: Refine WelcomeScreen hero font to Playfair Display italic (cinematic style)\n\n## Steps:\n- [x] Step 1: Update src/index.css - Enhance Playfair Display import with ital,wght@1,400;1,600;1,700.\n- [x] Step 2: Update src/Pages/WelcomeScreen.jsx - Set inline style on <h1> to Playfair Display italic fw 600, letterSpacing 0.1em.\n- [x] Step 3: Test on localhost:5174.\n- [x] Step 4: Complete.
+# TODO: Add Project Links to Portfolio
+
+## Steps:
+- [x] Step 1: Update src/data/projects.js with actual demo and GitHub URLs for all 5 projects\n- [x] Step 2: Verify links work in Portfolio page and ProjectDetail pages\n- [x] Step 3: Test responsive view and "See More Projects" toggle\n- [x] Step 4: Complete task
